@@ -1,0 +1,137 @@
+Up Pay
+Angular Workshop 2 Notes
+Oct 02, 2020
+
+--
+
+Today's workshop targets:
+- Introduce to Bootstrap UI Library
+- Introduce to Bootstrap Documentation
+
+--
+
+Install Prerequisites:
+
+1. Bootstrap
+	- via CDN
+	- Use Angular Wrapper
+	
+- Bootstrap via CDN
+	- Link: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+	
+- Angular Wrapper: ng-bootstrap
+	- Link: https://ng-bootstrap.github.io/#/getting-started
+	
+--
+
+CSS Flexbox Examples
+
+- Show flex model diagram on Mozilla site:
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+
+- default flex direction is row
+	- main axis is horizontal axis, use justify properties to adjust horizontal positioning
+	- cross axis is vertical axis, use align properties to adjust vertical positioning
+	
+- when flex direction is set to col
+	- main axis is vertical, use justify properties to adjust vertical positioning
+	- cross axis is horizontal, use align properties to adjust horizontal positioning
+	
+- position row at all 8 corners
+	- flex-direction: row
+	- flex-direction: row-reverse
+
+- position a col at all 8 corners
+	- flex-direction: col
+	- flex-direction: col-reverse
+
+- justify content: along main axis
+	- flex-start
+	- flex-end
+	- center
+	- space-between
+	- space-around
+	
+- align-items: along cross axis
+	- flex-start
+	- flex-end
+	- center
+	- baseline
+	- stretch
+	
+- align-self and justify-self
+	- fine granular control over individual flex items
+
+--
+
+Bootstrap Layout
+
+- container and container-fluid
+
+- a row consists of 12 cols over which you layout your elements
+
+- can have another row inside col
+
+- can have another col inside row
+
+- theoretically, you can nest lots of alternating rows and cols
+	- bad practice, keep it as simple as possible
+
+- cannot place a row inside a row, or a col inside a col
+
+- mobile first layout approach
+	- first design layout for mobile
+	- then use breakpoint utilities for adjust layout on bigger screens
+	
+- bootstrap default breakpoints:
+	- https://getbootstrap.com/docs/4.5/layout/grid/#grid-options
+	
+- responsive design basic example
+
+--
+
+NgBootstrap (will cover in next workshop)
+
+Install NgBootstrap:
+https://ng-bootstrap.github.io/#/getting-started
+
+NgbModal Example
+
+--
+
+Additional Resources:
+
+Auto-complete support for Bootstrap classes in VSCode:
+1. Install VS Code Extension: 'HTML CSS Support' by ecmel
+2. Add Bootstrap CSS CDN URL to css.remoteStyleSheets in VS Code settings for this extension
+
+Bootstrap Examples:
+https://getbootstrap.com/docs/4.5/examples/
+
+Bootstrap Icons:
+https://icons.getbootstrap.com/
+
+FontAwesome Icons:
+https://fontawesome.com/icons?d=gallery
+
+CSS Flexbox:
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+
+Bootstrap 4 Intro (YouTube playlist by Academind):
+https://www.youtube.com/playlist?list=PL55RiY5tL51rLqH4-8LBVlUTIFF70dxhb
+
+--
+
+Content to review before next workshop:
+
+RxJS Primer:
+https://www.learnrxjs.io/learn-rxjs/concepts/rxjs-primer
+
+Understanding RxJS (YouTube playlist by Academind):
+https://www.youtube.com/playlist?list=PL55RiY5tL51pHpagYcrN9ubNLVXF8rGVi
+
+Other optional introductory resources:
+https://www.learnrxjs.io/#introductory-resources
+
+--
+
