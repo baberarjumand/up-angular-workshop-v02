@@ -1,0 +1,31 @@
+.outer {
+  //   display: flex;
+  //   flex-direction: column-reverse;
+  //   justify-content: center;
+  //   align-items: center;
+  height: 50vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+  //   align-self: flex-end;
+}
+
+.gray {
+  background-color: gray;
+}
